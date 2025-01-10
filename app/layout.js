@@ -6,8 +6,8 @@ import Footer from '@/components/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Spendy',
-  description: 'Track your expenses effortlessly',
+  title: 'VidSpark.ai',
+  description: 'AI short video generator',
 };
 
 export default function RootLayout({ children }) {
