@@ -39,3 +39,5 @@ VidSpark:
 An AI-powered platform that transforms your ideas into captivating short videos effortlessly. Create dynamic, engaging content in seconds with cutting-edge technology and seamless customization.
 
 VidSpark: Ignite creativity with AI-generated short videos.
+Auth: using Auth.js (auth)
+--legacy-peer-deps
