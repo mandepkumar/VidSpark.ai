@@ -1,10 +1,19 @@
+import { auth } from '@/auth';
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
-const Header = () => {
+const Header = async () => {
+  const session = await auth();
   return (
-    <header className="py-12 text-center">
+    <header className="px-5 py-3 bg-white shadow-sm">
       Header
-      <nav></nav>
+      <nav className="flex justify-between items-center">
+        <Link href="/">
+          <Image src="/logo.png" height={30} width={30} />
+        </Link>
+        <div className="flex items-center gap-5"></div>
+      </nav>
     </header>
   );
 };
